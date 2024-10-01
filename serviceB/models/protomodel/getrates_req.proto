@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package protomodel;
+option go_package = "./;protomodel";
+
+service GetRatesService {
+    rpc  GetRates (RatesRequest) returns (RatesResponse){}
+}
+
+
+message RatesRequest{
+
+}
+
+message RatesResponse {
+    string rates = 1;
+}

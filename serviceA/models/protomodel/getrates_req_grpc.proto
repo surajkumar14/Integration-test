@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package protomodel;
+option go_package = "./;protomodel";
+
+service GetRatesServiceWithGrpc {
+    rpc  GetRatesGrpc (RatesRequestGrpc) returns (RatesResponseGrpc){}
+}
+
+
+message RatesRequestGrpc{
+
+}
+
+message RatesResponseGrpc {
+    string rates = 1;
+}
