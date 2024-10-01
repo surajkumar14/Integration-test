@@ -2,9 +2,9 @@ package router
 
 import (
 	"net/http"
-	grpcroutes "serviceB/router/grpc_routes"
 
 	"github.com/gin-gonic/gin"
+	grpcroutes "github.com/surajkumar14/Integration-test.git/serviceB/router/grpc_routes"
 	"google.golang.org/grpc"
 )
 

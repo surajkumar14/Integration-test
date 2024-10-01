@@ -3,7 +3,8 @@ package main
 import (
 	"log"
 	"net"
-	"serviceB/router"
+
+	"github.com/surajkumar14/Integration-test.git/serviceB/router"
 )
 
 func main() {
