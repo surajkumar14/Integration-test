@@ -4,7 +4,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/surajkumar14/Integration-test/router"
+	"github.com/surajkumar14/ServiceB/router"
 )
 
 func main() {

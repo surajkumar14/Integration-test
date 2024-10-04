@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	grpcroutes "github.com/surajkumar14/Integration-test/router/grpc_routes"
+	grpcroutes "github.com/surajkumar14/ServiceB/router/grpc_routes"
 	"google.golang.org/grpc"
 )
 

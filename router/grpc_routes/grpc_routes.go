@@ -3,7 +3,7 @@ package grpcroutes
 import (
 	"context"
 
-	"github.com/surajkumar14/Integration-test/models/protomodel"
+	"github.com/surajkumar14/ServiceB/models/protomodel"
 
 	"google.golang.org/grpc"
 )

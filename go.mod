@@ -1,4 +1,4 @@
-module github.com/surajkumar14/Integration-test
+module github.com/surajkumar14/ServiceB
 
 go 1.22
 
